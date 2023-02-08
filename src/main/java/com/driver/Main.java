@@ -7,13 +7,13 @@ public class Main {
     B.meth();
   }
   public static class A{
-    static String meth(){
+    public static String meth(){
       return "Invoking method from class A";
     }
   }
 
   public static class B extends A{
-    static String meth(){
+    public static String meth(){
       return "Method is overridden in Extendend class B";
     }
   }
